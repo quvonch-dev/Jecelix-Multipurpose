@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jevelix is a clean multipurpose responsive landing page built with HTML CSS and JavaScript." />
+  <title>Jevelix — Multipurpose Responsive Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="page-loader" id="pageLoader">
+    <span></span>
+  </div>
+
+  <header class="site-header" id="header">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo">
+        <span>J</span> Jevelix
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#demos">Demos</a>
+        <a href="#features">Features</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#pricing" class="nav-btn">Buy Now</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+          <i class="ri-menu-3-line"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg-shape shape-one"></div>
+      <div class="hero-bg-shape shape-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <span class="eyebrow">Creative Multipurpose Template</span>
+          <h1>Build a modern website for any business idea.</h1>
+          <p>
+            A clean, responsive and fast landing page inspired by premium multipurpose themes. Perfect for agency, startup, portfolio, app, course and service websites.
+          </p>
+          <div class="hero-buttons">
+            <a href="#demos" class="btn primary-btn">Explore Demos</a>
+            <a href="#features" class="btn secondary-btn">View Features</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <strong>35+</strong>
+              <span>Sections</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Responsive</span>
+            </div>
+            <div>
+              <strong>SEO</strong>
+              <span>Ready</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-preview reveal">
+          <div class="browser-card">
+            <div class="browser-top">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="mock-hero">
+              <div>
+                <span class="mock-label">Live Preview</span>
+                <h3>Creative Agency</h3>
+                <p>Beautiful pages, smart blocks and smooth animations.</p>
+              </div>
+            </div>
+            <div class="mock-grid">
+              <div class="mock-card tall"></div>
+              <div class="mock-card"></div>
+              <div class="mock-card"></div>
+              <div class="mock-card wide"></div>
+            </div>
+          </div>
+          <div class="floating-badge badge-left">
+            <i class="ri-smartphone-line"></i>
+            Mobile Ready
+          </div>
+          <div class="floating-badge badge-right">
+            <i class="ri-flashlight-line"></i>
+            Fast Loading
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brand-strip">
+      <div class="container brand-row">
+        <span>Agency</span>
+        <span>Startup</span>
+        <span>Portfolio</span>
+        <span>Shop</span>
+        <span>Blog</span>
+      </div>
+    </section>
+
+    <section class="section demos" id="demos">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Website Demos</span>
+          <h2>Ready-made homepage ideas</h2>
+          <p>Choose a design style and change the text, colors and images for your own project.</p>
+        </div>
+
+        <div class="demo-grid">
+          <article class="demo-card reveal">
+            <div class="demo-screen agency"></div>
+            <h3>Agency</h3>
+            <p>For digital studios, marketing teams and freelancers.</p>
+          </article>
+          <article class="demo-card reveal">
+            <div class="demo-screen startup"></div>
+            <h3>Startup</h3>
+            <p>For SaaS, mobile apps and product landing pages.</p>
+          </article>
+          <article class="demo-card reveal">
+            <div class="demo-screen ecommerce"></div>
+            <h3>eCommerce</h3>
+            <p>For product showcases and modern online stores.</p>
+          </article>
+          <article class="demo-card reveal">
+            <div class="demo-screen portfolio"></div>
+            <h3>Portfolio</h3>
+            <p>For designers, developers and creative experts.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="features">
+      <div class="container features-grid">
+        <div class="feature-copy reveal">
+          <span class="eyebrow">Powerful Features</span>
+          <h2>Everything you need for a professional front-end project.</h2>
+          <p>
+            The layout includes reusable blocks: sticky header, cards, portfolio filter, testimonials slider, FAQ accordion, pricing and contact form.
+          </p>
+          <a href="#contact" class="btn primary-btn">Start Project</a>
+        </div>
+
+        <div class="feature-list">
+          <div class="feature-item reveal">
+            <i class="ri-layout-4-line"></i>
+            <h3>Flexible Layouts</h3>
+            <p>Use the same structure for business, blog, service or portfolio websites.</p>
+          </div>
+          <div class="feature-item reveal">
+            <i class="ri-magic-line"></i>
+            <h3>Smooth Animations</h3>
+            <p>Elements appear beautifully while scrolling using simple JavaScript.</p>
+          </div>
+          <div class="feature-item reveal">
+            <i class="ri-menu-search-line"></i>
+            <h3>Mega Menu Style</h3>
+            <p>Clean navigation with sticky background and mobile menu toggle.</p>
+          </div>
+          <div class="feature-item reveal">
+            <i class="ri-shopping-bag-3-line"></i>
+            <h3>Shop Ready</h3>
+            <p>Pricing and product cards can be adapted for eCommerce pages.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Easy Setup</span>
+          <h2>From idea to live website</h2>
+          <p>Open the folder in VS Code, edit the text and publish it to GitHub Pages.</p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-card reveal">
+            <strong>01</strong>
+            <h3>Edit Content</h3>
+            <p>Change headings, buttons and descriptions inside index.html.</p>
+          </div>
+          <div class="process-card reveal">
+            <strong>02</strong>
+            <h3>Change Design</h3>
+            <p>Update colors, spacing and sections from style.css.</p>
+          </div>
+          <div class="process-card reveal">
+            <strong>03</strong>
+            <h3>Add Effects</h3>
+            <p>Use script.js for menu, filters, slider and scroll reveal.</p>
+          </div>
+          <div class="process-card reveal">
+            <strong>04</strong>
+            <h3>Publish</h3>
+            <p>Upload to GitHub and enable Pages from repository settings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Portfolio</span>
+          <h2>Creative project showcase</h2>
+          <p>Filter projects by category. This is useful for agency and freelancer websites.</p>
+        </div>
+
+        <div class="filter-buttons reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="shop">Shop</button>
+          <button class="filter-btn" data-filter="brand">Brand</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="project-card reveal" data-category="web">
+            <div class="project-img p1"></div>
+            <div class="project-info">
+              <span>Web Design</span>
+              <h3>Digital Agency</h3>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="shop">
+            <div class="project-img p2"></div>
+            <div class="project-info">
+              <span>eCommerce</span>
+              <h3>Product Store</h3>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="brand">
+            <div class="project-img p3"></div>
+            <div class="project-info">
+              <span>Branding</span>
+              <h3>Creative Identity</h3>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="web">
+            <div class="project-img p4"></div>
+            <div class="project-info">
+              <span>Landing Page</span>
+              <h3>SaaS Platform</h3>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="shop">
+            <div class="project-img p5"></div>
+            <div class="project-info">
+              <span>Shop UI</span>
+              <h3>Fashion Market</h3>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="brand">
+            <div class="project-img p6"></div>
+            <div class="project-info">
+              <span>Visual System</span>
+              <h3>Studio Profile</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container testimonials-grid">
+        <div class="section-title left reveal">
+          <span>Testimonials</span>
+          <h2>Clients love clean design</h2>
+          <p>Use this slider block for reviews, student feedback or customer opinions.</p>
+        </div>
+
+        <div class="testimonial-box reveal">
+          <div class="testimonial-slider" id="testimonialSlider">
+            <article class="testimonial-slide active">
+              <p>“The design looks premium and loads very fast. Perfect for a portfolio project.”</p>
+              <h4>Akmal R.</h4>
+              <span>Startup Founder</span>
+            </article>
+            <article class="testimonial-slide">
+              <p>“The sections are easy to edit and the mobile version works nicely.”</p>
+              <h4>Madina S.</h4>
+              <span>Marketing Manager</span>
+            </article>
+            <article class="testimonial-slide">
+              <p>“Great structure for beginners who want to learn real landing page coding.”</p>
+              <h4>Javohir M.</h4>
+              <span>Frontend Student</span>
+            </article>
+          </div>
+          <div class="slider-controls">
+            <button id="prevReview"><i class="ri-arrow-left-line"></i></button>
+            <button id="nextReview"><i class="ri-arrow-right-line"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing" id="pricing">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Pricing</span>
+          <h2>Simple plan cards</h2>
+          <p>You can change this block to services, products or package prices.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <h3>Starter</h3>
+            <p>For simple portfolio pages</p>
+            <div class="price">$19</div>
+            <ul>
+              <li><i class="ri-check-line"></i> 5 sections</li>
+              <li><i class="ri-check-line"></i> Mobile responsive</li>
+              <li><i class="ri-check-line"></i> Basic animations</li>
+            </ul>
+            <a href="#contact" class="btn secondary-btn">Choose Plan</a>
+          </article>
+
+          <article class="price-card popular reveal">
+            <span class="popular-badge">Popular</span>
+            <h3>Business</h3>
+            <p>For agency and company sites</p>
+            <div class="price">$49</div>
+            <ul>
+              <li><i class="ri-check-line"></i> 10+ sections</li>
+              <li><i class="ri-check-line"></i> Portfolio filter</li>
+              <li><i class="ri-check-line"></i> Contact form UI</li>
+            </ul>
+            <a href="#contact" class="btn primary-btn">Choose Plan</a>
+          </article>
+
+          <article class="price-card reveal">
+            <h3>Premium</h3>
+            <p>For bigger landing pages</p>
+            <div class="price">$89</div>
+            <ul>
+              <li><i class="ri-check-line"></i> Custom sections</li>
+              <li><i class="ri-check-line"></i> Advanced effects</li>
+              <li><i class="ri-check-line"></i> GitHub upload guide</li>
+            </ul>
+            <a href="#contact" class="btn secondary-btn">Choose Plan</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="container faq-grid">
+        <div class="section-title left reveal">
+          <span>FAQ</span>
+          <h2>Common questions</h2>
+          <p>Accordion block with JavaScript. Click a question to open the answer.</p>
+        </div>
+
+        <div class="accordion reveal" id="accordion">
+          <div class="accordion-item active">
+            <button class="accordion-head">Is this a WordPress theme? <i class="ri-add-line"></i></button>
+            <div class="accordion-body">No. This is a static HTML/CSS/JS template inspired by multipurpose WordPress theme structure.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-head">Can I change colors? <i class="ri-add-line"></i></button>
+            <div class="accordion-body">Yes. Open style.css and edit the variables inside :root at the top.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-head">Can I publish it on GitHub Pages? <i class="ri-add-line"></i></button>
+            <div class="accordion-body">Yes. Push index.html, style.css and script.js to GitHub, then enable Pages.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <span class="eyebrow">Contact</span>
+          <h2>Ready to customize this page?</h2>
+          <p>Replace this text with your real contact details. The form is front-end only, so it does not send messages without a backend.</p>
+          <div class="contact-info">
+            <p><i class="ri-mail-line"></i> hello@example.com</p>
+            <p><i class="ri-map-pin-line"></i> Tashkent, Uzbekistan</p>
+            <p><i class="ri-whatsapp-line"></i> +998 90 000 00 00</p>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Email address" required />
+          <textarea placeholder="Write message" rows="5" required></textarea>
+          <button type="submit" class="btn primary-btn">Send Message</button>
+          <p class="form-message" id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo footer-logo"><span>J</span> Jevelix</a>
+        <p>A modern multipurpose HTML template for learning and portfolio projects.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <a href="#home">Home</a>
+        <a href="#demos">Demos</a>
+        <a href="#features">Features</a>
+      </div>
+      <div>
+        <h4>Blocks</h4>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-github-fill"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright">
+      <p>© 2026 Jevelix. Built with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top"><i class="ri-arrow-up-line"></i></button>
+
+  <script src="./script.js"></script>
+</body>
+</html>
